@@ -44,7 +44,7 @@ def map(pos):
     elif(pos==len(tr.HELP_MSG)-1):
         url = "https://github.com/viperadnan-git/force-subscribe-telegram-bot/issues/new"
         button = [
-            [InlineKeyboardButton(text = 'Support Chat', url="https://t.me/ViperCommunity")],
+            [InlineKeyboardButton(text = 'CHANNEL', url="https://t.me/VKPROJECTS")],
             [InlineKeyboardButton(text = 'Feature Request & Issues', url=url)],
             [InlineKeyboardButton(text = '<--', callback_data = f"help+{pos-1}")]
         ]
